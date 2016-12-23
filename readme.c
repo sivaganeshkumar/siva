@@ -46,7 +46,7 @@ void primM(int g[V][V])
 	printM(parent, V, g);
 }
 
-int main()
+void main()
 {
 
 int g[V][V] = {{0, 2, 0, 6, 0},
@@ -56,6 +56,4 @@ int g[V][V] = {{0, 2, 0, 6, 0},
 					{0, 5, 7, 9, 0},
 					};
 	primM(g);
-
-	return 0;
 } 
