@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
-int main()
+void main()
 {
 char str1[50],str2[50],i,cost=0,cost1=0,count=0,min;
 int hash1[26]={0};
@@ -36,5 +36,4 @@ cost1+=(count/2*5);
 }
 min=(cost<cost1)?cost:cost1;
 printf("%d",min);
-return 0;
 }
