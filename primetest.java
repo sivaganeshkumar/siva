@@ -2,7 +2,7 @@ package com.example.test;
 
 import java.util.Scanner;
 
-public class PrimeTest {
+public class Prime{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out
