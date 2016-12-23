@@ -4,7 +4,7 @@ int a(const void*d,const void*n)
 {
 return (*(char*)n)-(*(char*)d);
 }
-void main()
+int main()
 {
 int i,j,n;
 char str[2*10];
@@ -20,4 +20,5 @@ j++;
 str[n*2]='\0';
 qsort(str,2*n,sizeof(char),a);
 printf("%s",str);
+  return 0;
 }
