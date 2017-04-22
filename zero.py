@@ -1,6 +1,6 @@
-n=int(input('Enter the number '))
-if(n!=0):
-    if(n>0):
+a=int(input('Enter the number '))
+if(a!=0):
+    if(a>0):
         print('Positive')
     else:
         print('Negative')
