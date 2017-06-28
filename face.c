@@ -13,7 +13,7 @@ for(i=0;i<n;i++)
 		int rem=a[i]%2;
 		a[i]=a[i]/2;
 		c++;
-    }
+	}
     a1[j++]=c;
 }
 for(i=0;i<n;i++)
