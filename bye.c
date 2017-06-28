@@ -34,7 +34,7 @@ int main(void) {
 			temp1=b[i];
 			b[i]=b[j];
 			b[j]=temp1;
-			}
+		}
 			else if(b[i]==b[i+1])
 			{
 				if(a[i>a[j])
