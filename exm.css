@@ -1,0 +1,36 @@
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+a.button2 {
+width: 4%;
+display: block;
+float: left;
+background: #fefefe;
+box-shadow: 4px 4px 8px #0e0e0e;
+border: solid #0e0e0e 2px;
+border-radius: 5px;
+}
+
+a.button2 {
+font-family: arial;
+font-size: 16px;
+color: #1FE3B4;
+text-shadow: none;
+text-decoration: none;
+padding: 1% 1%;
+margin: 10 40%
+}
+
+a:hover.button2 {
+color: #898989;
+text-decoration: none;
+box-shadow: 8px 8px 32px #0e0e0e inset;
+border: solid #0e0e0e 1px;
+}
